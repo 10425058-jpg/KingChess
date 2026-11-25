@@ -1,0 +1,12 @@
+KingChess Stockfish Engine Distribution Notice
+==============================================
+
+Bundled Engine: Stockfish 19.0.1 (stockfish-19-lite-single.js + stockfish-19-lite-single.wasm)
+Variant: Single-threaded Lite WASM build (no Cross-Origin-Isolation / SharedArrayBuffer required)
+License: GNU General Public License v3.0 (GPL-3.0) — see COPYING.txt in this directory
+
+Upstream Source Code:
+- Stockfish.js WASM wrapper & build scripts: https://github.com/nmrugg/stockfish.js (npm package: stockfish@19.0.1)
+- Stockfish Chess Engine C++ source: https://github.com/official-stockfish/Stockfish
+
+These engine files are distributed unmodified from the official npm package `stockfish@19.0.1`.

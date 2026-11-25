@@ -1,0 +1,80 @@
+:root {
+  /* Core Royal Charcoal, Slate, Antique Gold & Ivory Palette */
+  --kc-bg-charcoal: #10141b;
+  --kc-bg-deep: #0b0e13;
+  --kc-surface-slate: #1a202b;
+  --kc-surface-elevated: #222a38;
+  --kc-surface-hover: #2a3445;
+
+  --kc-gold: #d4af65;
+  --kc-gold-bright: #e6c680;
+  --kc-gold-muted: #9e7f42;
+  --kc-gold-tint: rgba(212, 175, 101, 0.14);
+  --kc-border-gold: rgba(212, 175, 101, 0.28);
+  --kc-border-subtle: rgba(241, 232, 213, 0.12);
+
+  --kc-ivory: #f1e8d5;
+  --kc-ivory-muted: #c2b8a3;
+  --kc-text-muted: #939cad;
+
+  --kc-walnut-dark: #6b472f;
+  --kc-walnut-frame: #3e2719;
+
+  --kc-danger: #d95c5c;
+  --kc-danger-bg: rgba(217, 92, 92, 0.16);
+  --kc-success: #64b887;
+  --kc-success-bg: rgba(100, 184, 135, 0.14);
+  --kc-info: #78a9e6;
+
+  /* Default board squares (Walnut & Ivory) */
+  --kc-square-light: #e7d8bc;
+  --kc-square-dark: #7a5237;
+  --kc-coord-on-light: #5c3c25;
+  --kc-coord-on-dark: #ebdcb9;
+  --kc-board-frame: #2b1d14;
+
+  /* Typography */
+  --kc-font-display: 'Cinzel', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --kc-font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --kc-font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Mono', 'SFMono-Regular', monospace;
+
+  /* Radii & Elevations */
+  --kc-radius-sm: 6px;
+  --kc-radius-md: 10px;
+  --kc-radius-lg: 14px;
+  --kc-shadow-card: 0 12px 32px rgba(0, 0, 0, 0.38);
+  --kc-shadow-board: 0 18px 46px rgba(0, 0, 0, 0.55);
+
+  /* Motion */
+  --kc-piece-duration: 160ms;
+  --kc-ui-duration: 150ms;
+}
+
+[data-board-theme='walnut-ivory'] {
+  --kc-square-light: #e7d8bc;
+  --kc-square-dark: #7a5237;
+  --kc-coord-on-light: #533520;
+  --kc-coord-on-dark: #eddcc0;
+  --kc-board-frame: #2c1d13;
+}
+
+[data-board-theme='charcoal-slate'] {
+  --kc-square-light: #aeb8c7;
+  --kc-square-dark: #374152;
+  --kc-coord-on-light: #232a36;
+  --kc-coord-on-dark: #e2e8f0;
+  --kc-board-frame: #181e29;
+}
+
+[data-board-theme='emerald-parchment'] {
+  --kc-square-light: #ebe3ce;
+  --kc-square-dark: #346250;
+  --kc-coord-on-light: #244739;
+  --kc-coord-on-dark: #f2ebd9;
+  --kc-board-frame: #1b3329;
+}
+
+[data-reduced-motion='true'] {
+  --kc-piece-duration: 0ms;
+  --kc-ui-duration: 0ms;
+}
